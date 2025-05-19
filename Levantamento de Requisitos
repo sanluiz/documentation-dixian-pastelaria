@@ -1,0 +1,24 @@
+### **Funcionais**
+
+1. **Cadastro de Usuários**
+    - Permitir o cadastro e autenticação de usuários (Nome, senha, matrícula).
+2. **Gerenciamento de Pastéis**
+    - Cadastro de pastéis com nome, preço e status (ativo/inativo).
+    - Atualização automática do status para inativo ao esgotar ingredientes.
+3. **Sistema de Pedidos**
+    - Permitir que garçons façam pedidos pelo aplicativo.
+    - Exibir apenas pastéis ativos e com preço para seleção.
+    - Vincular cada pedido a um usuário autorizado.
+    - Permitir comentários opcionais nos pedidos.
+4. **Comunicação**
+    - Enviar alertas para o garçom quando um pedido estiver pronto.
+    - Informar a mesa correspondente nos alertas.
+5. **Fechamento de Conta**
+    - Calcular o valor total com base nos pedidos realizados.
+    - Permitir a adição de pedidos complementares antes do fechamento.
+
+### **Não Funcionais**
+
+- Interface responsiva e intuitiva.
+- Capacidade de operar offline e sincronizar dados posteriormente.
+- Segurança no armazenamento e transmissão de dados.

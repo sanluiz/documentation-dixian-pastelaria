@@ -1,3 +1,40 @@
+### **Introdução**
+
+O objetivo deste documento é definir os requisitos para o desenvolvimento de um sistema que melhore a comunicação entre os garçons e a cozinha da pastelaria Dochina, visando aumentar a eficiência e reduzir erros nos pedidos.
+
+### **Descrição Geral**
+
+Este sistema permitirá que garçons façam pedidos através de um aplicativo móvel, que serão diretamente comunicados à cozinha. Com isso, espera-se solucionar problemas de pedidos errados, entrega de itens frios, atrasos, e contas incorretas.
+
+### **Requisitos Específicos**
+
+**Usuários:**
+
+- Possibilidade de cadastro e autenticação.
+- Acesso controlado por permissões.
+
+**Pastéis:**
+
+- Gestão de ativos, inativação automática por falta de ingredientes.
+- Visibilidade limitada a itens com preço.
+
+**Pedidos:**
+
+- Sistema de pedidos centralizado por mesa.
+- Observações opcionais incluídas.
+
+**Comunicação e Locks de Sistema:**
+
+- Envio de alertas para garçons.
+- Sincronização em tempo real dos dados entre garçons e cozinha.
+
+### **Considerações Finais**
+
+Este levantamento inicial é um ponto de partida para o desenvolvimento. Sugere-se a validação contínua dos requisitos e ajustes conforme feedback de usuários finais e testes de implementação.
+
+Caso tenha sugestões ou necessite de mais informações, estou à disposição!
+
+
 ### **Funcionais**
 
 1. **Cadastro de Usuários**

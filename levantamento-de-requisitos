@@ -6,6 +6,7 @@ O objetivo deste documento é definir os requisitos para o desenvolvimento de um
 
 Este sistema permitirá que garçons façam pedidos através de um aplicativo móvel, que serão diretamente comunicados à cozinha. Com isso, espera-se solucionar problemas de pedidos errados, entrega de itens frios, atrasos, e contas incorretas.
 
+
 ### **Requisitos Específicos**
 
 **Usuários:**
@@ -28,11 +29,6 @@ Este sistema permitirá que garçons façam pedidos através de um aplicativo m�
 - Envio de alertas para garçons.
 - Sincronização em tempo real dos dados entre garçons e cozinha.
 
-### **Considerações Finais**
-
-Este levantamento inicial é um ponto de partida para o desenvolvimento. Sugere-se a validação contínua dos requisitos e ajustes conforme feedback de usuários finais e testes de implementação.
-
-Caso tenha sugestões ou necessite de mais informações, estou à disposição!
 
 
 ### **Funcionais**
@@ -59,3 +55,11 @@ Caso tenha sugestões ou necessite de mais informações, estou à disposição!
 - Interface responsiva e intuitiva.
 - Capacidade de operar offline e sincronizar dados posteriormente.
 - Segurança no armazenamento e transmissão de dados.
+
+
+
+### **Considerações Finais**
+
+Este levantamento inicial é um ponto de partida para o desenvolvimento. Sugere-se a validação contínua dos requisitos e ajustes conforme feedback de usuários finais e testes de implementação.
+
+Caso tenha sugestões ou necessite de mais informações, estou à disposição!

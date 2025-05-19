@@ -1,0 +1,29 @@
+## Cenários de Testes
+
+1. **Cadastro de Usuários**
+    - Verificar se é possível cadastrar um usuário com os campos obrigatórios.
+    - Validar login com usuário e senha corretos.
+    - Testar login com usuário ou senha incorreta.
+2. **Cadastro e Gerenciamento de Pastéis**
+    - Testar se o sistema exibe apenas pastéis cadastrados como ativos e com preço.
+    - Verificar se pastéis inativos ou sem preço não aparecem no aplicativo dos garçons.
+    - Simular a inativação de pastéis quando um ingrediente estiver em falta.
+3. **Realização de Pedidos pelos Garçons**
+    - Criar um pedido englobando múltiplos pastéis para uma mesa.
+    - Associar pedidos ao usuário correto e verificar se as permissões são respeitadas.
+    - Confirmar que pedidos complementares podem ser feitos para a mesma mesa.
+    - Garantir a possibilidade de adicionar observações opcionais nos pedidos.
+4. **Comunicação Cozinha-Garçom**
+    - Testar envio de alertas para o aplicativo dos garçons quando o pedido estiver pronto.
+    - Validar se o alerta contém as informações corretas sobre a mesa e o garçom.
+5. **Fechamento de Conta**
+- Confirmar cálculo correto da conta com base em todos os pedidos da mesa.
+- Testar o fechamento da conta em diferentes cenários (pedido cancelado, adições de última hora, etc.).
+
+## Critérios de Aceite
+
+- Apenas usuários cadastrados e autorizados podem realizar pedidos.
+- Apenas pastéis ativos e com preço definido são exibidos para seleção.
+- Sistema deve inativar automaticamente pastéis ao fim de um ingrediente.
+- Sistema deve permitir pedidos agrupados por mesa e avisar os garçons quando prontos.
+- Fechamento de contas deve refletir todos os pedidos corretamente.

@@ -1,0 +1,17 @@
+### **Bugs Identificados**
+
+1. **Inativação Automática de Pastéis**
+    - Se um pastel é inativado devido à falta de um ingrediente, deve ser verificado que não existem pendências em pedidos abertos com aquele pastel.
+2. **Autenticação de Usuário**
+    - Verificar se há tratamento adequado de erros durante tentativas de login, para evitar acessos não autorizados.
+
+### **Melhorias Sugeridas**
+
+1. **Histórico de Pedidos**
+    - Implementar um histórico de pedidos para que os garçons possam revisar solicitações anteriores.
+2. **Relatório de Reclamações**
+    - Acrescentar uma funcionalidade de relatório para monitorar o tipo de reclamações e realizar melhorias contínuas.
+3. **Configuração de Alerta**
+    - Permitir que os garçons configurem preferências para receber alertas apenas audíveis, por vibração, ou visíveis.
+4. **Treinamento de Usuários**
+    - Uma breve introdução ou manual de treinamento integrado ao aplicativo para novos usuários.

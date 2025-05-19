@@ -1,0 +1,26 @@
+describe('Teste de Geração de Pedido na Pastelaria Dochina', () => {
+it('Deve permitir que o garçom realize um pedido completo para uma mesa', () => {
+// Simula login do garçom
+cy.visit('/login');
+cy.get('#username').type('usuario_teste');
+cy.get('#password').type('senha_teste');
+cy.get('#login-button').click();
+
+// Navega até o painel de pedidos
+cy.visit('/pedidos');
+
+// Verifica se a lista de pastéis está correta
+cy.get('.pasteis-lista').should('contain', 'Pastel de Carne');
+cy.get('.pasteis-lista').should('not.contain', 'Pastel Inativo');
+
+// Seleciona os pastéis e insere observações
+cy.get('[data-testid="pastel-carne"]').click();
+cy.get('[data-testid="observacoes"]').type('Sem cebola');
+
+// Envia o pedido
+cy.get('[data-testid="enviar-pedido"]').click();
+
+// Valida o envio da confirmação
+cy.get('.alerta').should('contain', 'Pedido enviado com sucesso!');
+});
+});
